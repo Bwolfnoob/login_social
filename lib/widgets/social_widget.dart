@@ -11,12 +11,11 @@ class SocialWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-//   var bloc = BlocProvider.of<SocialBloc>(context);
-   var bloc = SocialBloc();
+   var bloc = BlocProvider.of<SocialBloc>(context);
 
     return Container(
       width: 90,
-      height: 220,
+      height: 300,
       child: Column(
         children: <Widget>[
           Padding(
@@ -41,6 +40,14 @@ class SocialWidget extends StatelessWidget {
               onPressed: bloc.onClickTwitter,
               child: Icon(FontAwesomeIcons.twitter),
               backgroundColor: Colors.lightBlue,
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: FloatingActionButton(
+              onPressed: bloc.onClickPhone,
+              child: Icon(FontAwesomeIcons.phone),
+              backgroundColor: Colors.amber,
             ),
           ),
         ],

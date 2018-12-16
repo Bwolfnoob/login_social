@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "276989806331",
+    "firebase_url": "https://myrecipes-9ad32.firebaseio.com",
+    "project_id": "myrecipes-9ad32",
+    "storage_bucket": "myrecipes-9ad32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276989806331:android:2cf88de704903dde",
+        "android_client_info": {
+          "package_name": "com.example.simpleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276989806331-jsarh8a2k83q34688ta6p4c28jorlt7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7RWfB8fQ0Nlvox3Ldij_53pTpqBndx9U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276989806331:android:10109bf44eddbc64",
+        "android_client_info": {
+          "package_name": "com.myreciples"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276989806331-jsarh8a2k83q34688ta6p4c28jorlt7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7RWfB8fQ0Nlvox3Ldij_53pTpqBndx9U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
